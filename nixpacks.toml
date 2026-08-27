@@ -1,0 +1,8 @@
+# Tells Railway's Nixpacks builder how to build and run this app as a
+# single service. Railway auto-detects Node, but this pins the exact
+# commands so it doesn't guess.
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm run start"
