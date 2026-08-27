@@ -1,1 +1,1 @@
-file: { "name": "storecontrolos", "version": "1.0.0", "private": true, "type": "module", "scripts": { "build": "cd frontend && npm install && npm run build", "start": "cd backend && npm install && node server.js" } }
+ { "name": "storecontrolos", "version": "1.0.0", "private": true, "type": "module", "scripts": { "build": "cd frontend && npm install && npm run build", "start": "cd backend && npm install && node server.js" } }
