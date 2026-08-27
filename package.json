@@ -1,14 +1,1 @@
-{
-  "name": "storecontrolos-backend",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
-  }
-}
+file: { "name": "storecontrolos", "version": "1.0.0", "private": true, "type": "module", "scripts": { "build": "cd frontend && npm install && npm run build", "start": "cd backend && npm install && node server.js" } }
